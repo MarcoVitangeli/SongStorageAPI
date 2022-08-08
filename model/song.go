@@ -1,10 +1,8 @@
 package model
 
-import "time"
-
 type Song struct {
-	id          int       `json:"id"`
-	name        string    `json:"name"`
-	author      string    `json:"author"`
-	releaseDate time.Time `json:"releaseDate"`
+	Id          int    `json:"id"`
+	Name        string `json:"name"`
+	Author      string `json:"author"`
+	ReleaseDate string `json:"releaseDate"`
 }
